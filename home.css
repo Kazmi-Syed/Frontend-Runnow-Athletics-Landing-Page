@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg {
+  max-width: 100%;
+  position: relative;
+}
+
+.bg nav {
+  z-index: 4;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 38px 130px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-right: 87px;
+}
+
+.bg nav .linkas ul {
+  margin-top: 26px;
+}
+
+.bg nav .linkas ul li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.bg nav .linkas ul li a {
+  text-shadow: 1px 1px 3px grey;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.bg .bgimg {
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 43, 48, 0.55)), color-stop(11.54%, rgba(42, 43, 48, 5.5e-05)));
+  background: linear-gradient(to bottom, rgba(42, 43, 48, 0.55) 0%, rgba(42, 43, 48, 5.5e-05) 11.54%);
+}
+
+.bg .bgimg img {
+  width: 100%;
+}
+
+.aftfrst {
+  margin-top: 60px;
+  z-index: 8;
+  color: brown;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 137px;
+}
+
+.aftfrst h1 {
+  max-width: 362px;
+  font-weight: 600;
+  padding-right: 20px;
+  font-size: 35px;
+  line-height: 45px;
+  color: #2C3F58;
+}
+
+.aftfrst p {
+  max-width: 731px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+  color: #2A2B30;
+}
+
+.sponsors {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background: rgba(196, 196, 196, 0.1);
+  padding: 30px 137px;
+}
+
+.sponsors .spn {
+  margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 20px;
+}
+
+.sponsors .spn .imgcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffff;
+  cursor: pointer;
+}
+
+.contact {
+  padding: 30px 137px;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact .fm {
+  margin-left: 20px;
+}
+
+.contact .inp {
+  margin-top: 20px;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 407px 447px;
+      grid-template-columns: 407px 447px;
+  row-gap: 30px;
+}
+
+.contact .inp input {
+  border-radius: unset;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.contact .inp button {
+  font-weight: 700;
+  font-size: 16px;
+}
+/*# sourceMappingURL=home.css.map */
